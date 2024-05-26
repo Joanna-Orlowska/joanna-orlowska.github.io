@@ -3,8 +3,8 @@ body {
   background-color: #d9ffd9;
 }
 
-ul {
-  background-color: #3CB371;
+.nav {
+  background-color: #2e8b57;
   position: fixed;
   top: -20px;
   right: -10px;
@@ -13,7 +13,7 @@ ul {
   font-size: 20px;
 }
 
-li {
+.nav li {
   display: inline-block;
   padding: 10px;
 }
@@ -27,23 +27,32 @@ a:hover {
   color: darkorange;
 }
 
-h1{
-  color: #363636;
+h1, .h1 {
+  color: black;
   font-weight: 400;
   margin-bottom: 40px;
   margin-top: 60px;
   font-family: Tahoma;
+  font-size: 26px;
 }
 
-h2 {
+h2, .h2 {
   font-weight: 400;
   color: #363636;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   margin-top: 40px;
+  font-size: 24px;
 }
 
-.colors {
-  color: #232423;
+h3, .h3 {
+  font-weight: 700;
+  color: #4f4e4e;
+  font-size: 20px;
+}
+
+p, .paragraph {
+  font-size: 16px;
+  color: #4f4e4e
 }
 
 .colors div {
@@ -52,6 +61,7 @@ h2 {
   height: 50px;
   border: 5px solid #F0FFFF;
   text-align: center;
+  color: #232423;
 }
 
 .palegreen {
@@ -113,3 +123,9 @@ h2 {
 .underline {
   text-decoration: underline;
 }
+
+.textstyles div {
+  border: 1px solid #363636;
+  padding: 10px;
+  margin: 30px;
+  color: #4f4e4e;
